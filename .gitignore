@@ -1,0 +1,53 @@
+# --- FRONTEND (React/Node) ---
+node_modules/
+/build
+/dist
+/.next/
+/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- BACKEND (Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- FIREBASE & SECRETS (IMPORTANT!) ---
+# Never commit your service account keys or environment variables
+.env
+.env*
+.env.local
+firebase-credentials.json
+*-firebase-adminsdk-*.json
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- MODELS ---
+trained_models/*.pth
+trained_models/*.pt

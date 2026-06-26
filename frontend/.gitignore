@@ -1,0 +1,45 @@
+# ==========================================
+# Frontend (Next.js / Node)
+# ==========================================
+node_modules/
+.next/
+out/
+build/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# Environments & Local Configs
+# ==========================================
+.env*
+.venv/
+venv/
+ENV/
+
+# ==========================================
+# Python & Caching
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# Machine Learning Weights & Large Binaries
+# ==========================================
+*.pt
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.log
+
+# Explicitly exclude your model directories
+backend/api/models/sbert_model/
+backend/trained_models/

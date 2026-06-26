@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "healing-with-hope"
+  }
+}
+```
+
+**Replace `healing-with-hope` with your actual Firebase project ID.**
+
+---
+

@@ -1,0 +1,33 @@
+# HEALING_WITH_HOPE — Unified Requirements
+
+# --- Web Framework (Switched to Flask) ---
+flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# --- LLaMA 3.2 3B LoRA & ML Core ---
+torch>=2.1.0
+transformers>=4.36.0
+peft>=0.7.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+scipy==1.11.3
+
+# --- Firebase ---
+firebase-admin==6.4.0
+
+# --- Audio & Vagal Proxy ---
+librosa==0.10.1
+soundfile==0.12.1
+
+# --- Data Processing ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Testing Suite ---
+pytest==7.4.3
+pytest-flask==1.3.0
+# Required for testing Flask apps with modern HTTP methods
+httpx>=0.25.0

@@ -1,0 +1,7 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "train_samples": 700,
+  "test_samples": 9,
+  "rouge1": 0.3963243194587848,
+  "format_accuracy": 1.0
+}

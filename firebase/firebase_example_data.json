@@ -1,0 +1,267 @@
+{
+  "description": "Example Firebase Firestore data structure for Healing with Hope",
+  "version": "1.0.0",
+  "structure": {
+    "users": {
+      "user_123": {
+        "profile": {
+          "name": "Sarah Johnson",
+          "email": "sarah@example.com",
+          "avatar_gender": "female",
+          "created_at": "2026-01-31T10:00:00Z",
+          "last_active": "2026-01-31T14:30:00Z"
+        },
+        "inner_child_state": {
+          "trust": 0.52,
+          "hope": 0.48,
+          "updated_at": "2026-01-31T14:30:00Z"
+        },
+        "preferences": {
+          "futurebloom_columns": {
+            "col1": "3 Months",
+            "col2": "1 Year",
+            "col3": "2 Years"
+          },
+          "theme": "default",
+          "notifications_enabled": true
+        },
+        "tiny_steps": {
+          "step_abc123": {
+            "task": "Morning meditation 10 minutes",
+            "category": "Mind",
+            "time": "06:00 AM",
+            "frequency": "Daily",
+            "completed": false,
+            "history": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "goal_reference": null,
+            "auto_generated": false,
+            "created_at": "2026-01-31T09:00:00Z"
+          },
+          "step_def456": {
+            "task": "Create detailed study schedule with topics",
+            "category": "Academic",
+            "time": "10:00 AM",
+            "frequency": "Weekly",
+            "completed": false,
+            "history": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "goal_reference": "goal_xyz789",
+            "auto_generated": true,
+            "order": 1,
+            "created_at": "2026-01-31T10:30:00Z"
+          },
+          "step_ghi789": {
+            "task": "Review course materials for 30 minutes",
+            "category": "Academic",
+            "time": "03:00 PM",
+            "frequency": "Daily",
+            "completed": false,
+            "history": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "goal_reference": "goal_xyz789",
+            "auto_generated": true,
+            "order": 2,
+            "created_at": "2026-01-31T10:30:00Z"
+          }
+        },
+        "hope_page": {
+          "goal_xyz789": {
+            "title": "Pass final chemistry and biology exams",
+            "timeframe": "3 months",
+            "instruction": "Study consistently, complete practice tests, attend study groups",
+            "neuroscience_note": null,
+            "completed": false,
+            "target_date": "2026-05-01T00:00:00Z",
+            "created_at": "2026-01-31T10:30:00Z"
+          },
+          "goal_abc456": {
+            "title": "Master Python programming and build 3 projects",
+            "timeframe": "1 year",
+            "instruction": "Complete online course, build portfolio projects, contribute to open source",
+            "completed": false,
+            "target_date": "2027-01-31T00:00:00Z",
+            "created_at": "2026-01-31T11:00:00Z"
+          },
+          "goal_jkl012": {
+            "title": "Start freelance web development business",
+            "timeframe": "2 years",
+            "instruction": "Build skills, create portfolio, network with clients, establish LLC",
+            "completed": false,
+            "target_date": "2028-01-31T00:00:00Z",
+            "created_at": "2026-01-31T11:15:00Z"
+          }
+        },
+        "stress_history": {
+          "entry_001": {
+            "stress_score": 0.65,
+            "features": {
+              "pitch_mean": 180.5,
+              "pitch_variability": 25.3,
+              "energy_mean": 0.42,
+              "energy_variability": 0.15,
+              "speaking_rate": 0.15,
+              "duration": 4.2
+            },
+            "timestamp": "2026-01-31T10:00:00Z"
+          },
+          "entry_002": {
+            "stress_score": 0.48,
+            "features": {
+              "pitch_mean": 165.2,
+              "pitch_variability": 18.7,
+              "energy_mean": 0.38,
+              "speaking_rate": 0.12
+            },
+            "timestamp": "2026-01-31T14:30:00Z"
+          },
+          "entry_003": {
+            "stress_score": 0.52,
+            "features": {
+              "pitch_mean": 172.8,
+              "energy_mean": 0.4
+            },
+            "timestamp": "2026-01-31T16:45:00Z"
+          }
+        },
+        "messages": {
+          "msg_001": {
+            "user_message": "I feel really anxious about my upcoming exams",
+            "assistant_response": "That sounds really heavy. What's making it feel most overwhelming right now?",
+            "stress_score": 0.7,
+            "emotion": "anxiety",
+            "trauma_pattern": "fear",
+            "conversation_count": 1,
+            "timestamp": "2026-01-31T09:30:00Z"
+          },
+          "msg_002": {
+            "user_message": "I'm worried I won't have enough time to study everything",
+            "assistant_response": "That uncertainty sounds exhausting. Have you been able to create any kind of study plan?",
+            "stress_score": 0.65,
+            "emotion": "anxiety",
+            "trauma_pattern": "fear",
+            "conversation_count": 2,
+            "timestamp": "2026-01-31T09:32:00Z"
+          },
+          "msg_003": {
+            "user_message": "No, I don't even know where to start",
+            "assistant_response": "That makes sense. Everything piling up can feel so heavy. Does this feel more like fear, sadness, or exhaustion?",
+            "stress_score": 0.68,
+            "emotion": "overwhelm",
+            "trauma_pattern": "fear",
+            "conversation_count": 3,
+            "crisis_detected": false,
+            "timestamp": "2026-01-31T09:34:00Z"
+          },
+          "msg_004": {
+            "user_message": "Mostly fear I think",
+            "assistant_response": "Fear can make everything feel urgent. You're here talking about it though. That takes courage.",
+            "stress_score": 0.62,
+            "emotion": "fear",
+            "conversation_count": 4,
+            "timestamp": "2026-01-31T09:36:00Z"
+          }
+        }
+      }
+    }
+  },
+  "notes": {
+    "tiny_steps_history": "Array of 31 booleans representing daily completion for each day of the month",
+    "timestamps": "All timestamps use ISO 8601 format",
+    "auto_generated": "Tasks created automatically from FutureBloom goals have auto_generated=true",
+    "goal_reference": "Links tiny steps to their parent FutureBloom goal"
+  }
+}
